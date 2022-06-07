@@ -16,7 +16,7 @@ basicHeader("Hiring Status");
                     </p>
                 </div>
                 <div class="ms-card-btn">
-                    <a href="/manager.php?tab=hiring-status&section=saved-later" class="ms-btn ms-primary"><i class="bi bi-arrow-right"></i></a>
+                    <a href="./manager.php?tab=hiring-status&section=saved-later" class="ms-btn ms-primary"><i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@ basicHeader("Hiring Status");
                     </p>
                 </div>
                 <div class="ms-card-btn">
-                    <a href="/manager.php?tab=hiring-status&section=waiting-from-hq" class="ms-btn ms-primary"><i class="bi bi-arrow-right"></i></a>
+                    <a href="./manager.php?tab=hiring-status&section=waiting-from-hq" class="ms-btn ms-primary"><i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@ basicHeader("Hiring Status");
                     </p>
                 </div>
                 <div class="ms-card-btn">
-                    <a href="/manager.php?tab=hiring-status&section=posted-job" class="ms-btn ms-primary"><i class="bi bi-arrow-right"></i></a>
+                    <a href="./manager.php?tab=hiring-status&section=posted-job" class="ms-btn ms-primary"><i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@ basicHeader("Hiring Status");
                     </p>
                 </div>
                 <div class="ms-card-btn">
-                    <a href="/manager.php?tab=hiring-status&section=interview-session" class="ms-btn ms-primary"><i class="bi bi-arrow-right"></i></a>
+                    <a href="./manager.php?tab=hiring-status&section=interview-session" class="ms-btn ms-primary"><i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -84,7 +84,7 @@ basicHeader("Hiring Status");
                     </p>
                 </div>
                 <div class="ms-card-btn">
-                    <a href="/manager.php?tab=hiring-status&section=done" class="ms-btn ms-primary"><i class="bi bi-arrow-right"></i></a>
+                    <a href="./manager.php?tab=hiring-status&section=done" class="ms-btn ms-primary"><i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -99,7 +99,7 @@ basicHeader("Hiring Status");
                     </p>
                 </div>
                 <div class="ms-card-btn">
-                    <a href="/manager.php?tab=hiring-status&section=all-notices" class="ms-btn ms-primary"><i class="bi bi-arrow-right"></i></a>
+                    <a href="./manager.php?tab=hiring-status&section=all-notices" class="ms-btn ms-primary"><i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
         </div>

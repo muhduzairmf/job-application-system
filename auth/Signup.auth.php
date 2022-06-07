@@ -116,7 +116,7 @@ class Signup {
         $_SESSION['user_role'] = $this->role;
 
         // Go to applicant home page, since sign up is for new applicant only
-        header("Location: applicant.php?tab=home&section=main");
+        header("Location: ./applicant.php?tab=home&section=main");
     }
 
 }

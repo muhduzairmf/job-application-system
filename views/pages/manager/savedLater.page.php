@@ -108,11 +108,11 @@ if ($result->num_rows > 0) {
                             <p><?php echo (empty($job['other_info'])) ? "-" : $job['other_info']; ?></p>
                             <h5>Recruiment status</h5>
                             <p><?php echo $managerContr->savedLater_recruitStatus((int)$job['recruitment_status_id']); ?></p>
-                            <div class="ms-form-group ms-float-right"><button class="ms-primary" x-on:click="toggleUpdateForm()">Update</button>&nbsp;<form method="post" action="/manager.php?tab=hiring-status&section=saved-later" style="display:inline-block;"><button class="ms-secondary" type="submit" name="Delete_Notice_Id" value="<?php echo $job['id']; ?>">Delete</button></form></div>
+                            <div class="ms-form-group ms-float-right"><button class="ms-primary" x-on:click="toggleUpdateForm()">Update</button>&nbsp;<form method="post" action="./manager.php?tab=hiring-status&section=saved-later" style="display:inline-block;"><button class="ms-secondary" type="submit" name="Delete_Notice_Id" value="<?php echo $job['id']; ?>">Delete</button></form></div>
                             <br><br>
                         </div>
                         <div class="p-4" x-show="openUpdateForm" x-transition.duration.200ms>
-                            <form action="/manager.php?tab=hiring-status&section=saved-later" method="post" autocomplete="off">
+                            <form action="./manager.php?tab=hiring-status&section=saved-later" method="post" autocomplete="off">
                             <div class="ms-form-group">
                                 <label for="designation">Designation&nbsp;<span class="ms-text-action2">*</span></label>
                                 <input type="text" name="designation" id="designation" value="<?php echo $job['designation']; ?>" required>

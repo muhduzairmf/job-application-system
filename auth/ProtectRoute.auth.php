@@ -17,7 +17,7 @@ class ProtectRoute {
 
             // Return login page, if the access_token is broken
             if (count($arr_access_token) < 3) {
-                header("Location: /login.php");
+                header("Location: ./login.php");
             }
             
             // Get the rand_uuid from access_token
@@ -39,7 +39,7 @@ class ProtectRoute {
                 // Return login page, if the user_token is broken
                 if (count($arr_user_token) < 2) {
                     $_SESSION['redirect_login'] = 'no_access_token';
-                    header("Location: /login.php");
+                    header("Location: ./login.php");
                 }
             
                 // Get email and role from user_token
@@ -52,7 +52,7 @@ class ProtectRoute {
                 // If not valid, return login page
                 if ($_COOKIE['access_token'] != $access_token_cpy) {
                     $_SESSION['redirect_login'] = 'no_access_token';
-                    header("Location: /login.page");
+                    header("Location: ./login.page");
                 }
 
                 // If valid, create session (user_email and user_role) based on user_token
@@ -64,7 +64,7 @@ class ProtectRoute {
         // If cookie not exist, return login page
         } else {
             $_SESSION['redirect_login'] = 'no_access_token';
-            header("Location: /login.php");
+            header("Location: ./login.php");
         }
 
     }
@@ -72,7 +72,7 @@ class ProtectRoute {
     public function validateApplicant() {
 
         if ($_SESSION['user_role'] != "Applicant") {
-            $homeurl = strtolower($_SESSION['user_role']) . ".php?tab=home&section=main";
+            $homeurl = "./" . strtolower($_SESSION['user_role']) . ".php?tab=home&section=main";
             forbidden($homeurl);
             return false;
         }
@@ -84,7 +84,7 @@ class ProtectRoute {
     public function validateHr() {
 
         if ($_SESSION['user_role'] != "HR") {
-            $homeurl = strtolower($_SESSION['user_role']) . ".php?tab=home&section=main";
+            $homeurl = "./" . strtolower($_SESSION['user_role']) . ".php?tab=home&section=main";
             forbidden($homeurl);
             return false;
         }
@@ -96,7 +96,7 @@ class ProtectRoute {
     public function validateManager() {
 
         if ($_SESSION['user_role'] != "Manager") {
-            $homeurl = strtolower($_SESSION['user_role']) . ".php?tab=home&section=main";
+            $homeurl = "./" . strtolower($_SESSION['user_role']) . ".php?tab=home&section=main";
             forbidden($homeurl);
             return false;
         }

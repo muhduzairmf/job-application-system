@@ -15,10 +15,10 @@ function navManager() {
             <label for="ms-menu-toggle" class="ms-menu-icon"
                 ><p>&#9776;</p></label>
             <ul>
-                <li><a href="/manager.php?tab=home&section=main">Home</a></li>
-                <li><a href="/manager.php?tab=job&section=main">Job</a></li>
-                <li><a href="/manager.php?tab=message&section=main">Message</a></li>
-                <li><a href="/manager.php?tab=profile&section=user-detail">Profile</a></li>
+                <li><a href="./manager.php?tab=home&section=main">Home</a></li>
+                <li><a href="./manager.php?tab=job&section=main">Job</a></li>
+                <li><a href="./manager.php?tab=message&section=main">Message</a></li>
+                <li><a href="./manager.php?tab=profile&section=user-detail">Profile</a></li>
                 <li>
                     <div class="ms-dropdown">
                         <button class="ms-btn">
@@ -26,7 +26,7 @@ function navManager() {
                         </button>
                         <div class="ms-dropdown-content">
                             <ul class="ms-dropdown-content-list" style="height:auto;width:auto;">
-                            <form action="/auth/Logout.auth.php" method="post">
+                            <form action="./auth/Logout.auth.php" method="post">
                                 <button class="ms-btn" type="submit" style="display:block;margin:auto;">Logout</button>
                             </form>
                             </ul>

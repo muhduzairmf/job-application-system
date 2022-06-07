@@ -12,7 +12,7 @@
     <!-- /* Navbar */ -->
     <div class="ms-menu">
         <div class="ms-menu-logo">
-            <a href="/"><img src="https://portalvhds11000v9mfhk0k.blob.core.windows.net/travel/HISnew.png" /></a>
+            <a href="./"><img src="https://portalvhds11000v9mfhk0k.blob.core.windows.net/travel/HISnew.png" /></a>
         </div>
         <nav class="ms-menu-link">
             <input type="checkbox" id="ms-menu-toggle" />
@@ -20,8 +20,8 @@
                 ><p>&#9776;</p></label>
             <ul>
                 <li><a href="#about-us">About Us</a></li>
-                <li><a href="/signup.php">Sign Up</a></li>
-                <li><a href="/login.php">Login</a></li>
+                <li><a href="./signup.php">Sign Up</a></li>
+                <li><a href="./login.php">Login</a></li>
             </ul>
         </nav>
     </div>
@@ -37,7 +37,7 @@
                     </p>
                 </div>
                 <div class="ms-text-center">
-                    <a href="/signup.php" class="ms-btn ms-action">Apply now <i class="bi bi-arrow-right"></i></a>
+                    <a href="./signup.php" class="ms-btn ms-action">Apply now <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
         </div>  

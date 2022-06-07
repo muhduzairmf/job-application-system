@@ -16,7 +16,7 @@ basicHeader("Job");
                     </p>
                 </div>
                 <div class="ms-card-btn">
-                    <a href="/manager.php?tab=job&section=new-notice" class="ms-btn ms-primary"><i class="bi bi-arrow-right"></i></a>
+                    <a href="./manager.php?tab=job&section=new-notice" class="ms-btn ms-primary"><i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@ basicHeader("Job");
                     </p>
                 </div>
                 <div class="ms-card-btn">
-                    <a href="/manager.php?tab=job&section=hiring-status" class="ms-btn ms-primary"><i class="bi bi-arrow-right"></i></a>
+                    <a href="./manager.php?tab=job&section=hiring-status" class="ms-btn ms-primary"><i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
         </div>

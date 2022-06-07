@@ -49,9 +49,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['submit']) && $_POST['s
                     </p>
                 </div><br><br>
                 <div class="ms-form-group">
-                    <a href="/manager.php?tab=job&section=new-notice" class="ms-btn ms-secondary">Create a new other notice</a>
+                    <a href="./manager.php?tab=job&section=new-notice" class="ms-btn ms-secondary">Create a new other notice</a>
                     <br><br>
-                    <a href="/manager.php?tab=hiring-status&section=all-notices" class="ms-btn ms-primary">View the list of all job recruitment</a>
+                    <a href="./manager.php?tab=hiring-status&section=all-notices" class="ms-btn ms-primary">View the list of all job recruitment</a>
                 </div>
                 <?php
             } else {
@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['submit']) && $_POST['s
                 }
                 ?>
                 <br>
-                <form action="/manager.php?tab=job&section=new-notice" method="post" autocomplete="off">
+                <form action="./manager.php?tab=job&section=new-notice" method="post" autocomplete="off">
                 <div class="ms-form-group">
                     <label for="designation">Designation&nbsp;<span class="ms-text-action2">*</span></label>
                     <input type="text" name="designation" id="designation" value="<?php echo $newNotice_page['designation']; ?>">
@@ -146,7 +146,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['submit']) && $_POST['s
                 <br>
                 <div class="ms-form-group ms-float-right">
                     <button type="submit" name="submit" value="Create_New_Notice" class="ms-btn ms-primary ">Proceed</button>
-                    <a href="/manager.php?tab=job&section=main" class="ms-btn ms-secondary">Cancel</a>
+                    <a href="./manager.php?tab=job&section=main" class="ms-btn ms-secondary">Cancel</a>
                 </div>
                 </form>
                 <?php

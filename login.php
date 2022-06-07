@@ -44,15 +44,15 @@ unset($_SESSION['redirect_login']);
     <!-- /* Navbar */ -->
     <div class="ms-menu">
         <div class="ms-menu-logo">
-            <a href="/"><img src="https://portalvhds11000v9mfhk0k.blob.core.windows.net/travel/HISnew.png" /></a>
+            <a href="./"><img src="https://portalvhds11000v9mfhk0k.blob.core.windows.net/travel/HISnew.png" /></a>
         </div>
         <nav class="ms-menu-link">
             <input type="checkbox" id="ms-menu-toggle" />
             <label for="ms-menu-toggle" class="ms-menu-icon"
                 ><p>&#9776;</p></label>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/signup.php">Sign Up</a></li>
+                <li><a href="./">Home</a></li>
+                <li><a href="./signup.php">Sign Up</a></li>
             </ul>
         </nav>
     </div>
@@ -96,7 +96,7 @@ unset($_SESSION['redirect_login']);
                     <input type="submit" class="ms-btn ms-primary ms-fullwidth" value="Login" name="submit">
                 </div>
                 <div class="form-group">
-                    <span class="ms-under-input">Don't have an account? <a href="/signup.php"><u>Sign Up</u></a> for free.</span>
+                    <span class="ms-under-input">Don't have an account? <a href="./signup.php"><u>Sign Up</u></a> for free.</span>
                 </div>
             </div>
         </div>

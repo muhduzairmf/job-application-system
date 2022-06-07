@@ -84,7 +84,7 @@ class Login {
         $_SESSION['user_role'] = $this->role;
 
         // Go to related home page for appropriate user
-        $homepage = strtolower($this->role) . ".php?tab=home&section=main";
+        $homepage = "./" . strtolower($this->role) . ".php?tab=home&section=main";
         header("Location: ${homepage}");
     }
 

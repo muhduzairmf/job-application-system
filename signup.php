@@ -46,15 +46,15 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['submit']) && $_POST['s
     <!-- /* Navbar */ -->
     <div class="ms-menu">
         <div class="ms-menu-logo">
-            <a href="/"><img src="https://portalvhds11000v9mfhk0k.blob.core.windows.net/travel/HISnew.png" /></a>
+            <a href="./"><img src="https://portalvhds11000v9mfhk0k.blob.core.windows.net/travel/HISnew.png" /></a>
         </div>
         <nav class="ms-menu-link">
             <input type="checkbox" id="ms-menu-toggle" />
             <label for="ms-menu-toggle" class="ms-menu-icon"
                 ><p>&#9776;</p></label>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/login.php">Login</a></li>
+                <li><a href="./">Home</a></li>
+                <li><a href="./login.php">Login</a></li>
             </ul>
         </nav>
     </div>
@@ -117,7 +117,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['submit']) && $_POST['s
                     <input type="submit" class="ms-btn ms-primary ms-fullwidth" value="Sign Up" name="submit">
                 </div>
                 <div class="form-group">
-                    <span class="ms-under-input">Have an account? <a href="/login.php"><u>Login</u></a> here.</span>
+                    <span class="ms-under-input">Have an account? <a href="./login.php"><u>Login</u></a> here.</span>
                 </div>
             </div>
         </div>
