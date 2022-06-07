@@ -139,8 +139,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['submit']) && $_POST['s
                     <label for="status_recruitment">Status of recruitment&nbsp;<span class="ms-text-action2">*</span></label>
                     <select name="status_recruitment" id="status_recruitment">
                         <option value="">Choose an option</option>
-                        <option value="5">Save recruitment notice later.</option>
-                        <option value="1">Submit to HR to proceed approval from HQ</option>
+                        <option value="1">Save recruitment notice later.</option>
+                        <option value="2">Submit to HR to proceed approval from HQ</option>
                     </select>
                 </div>
                 <br>
