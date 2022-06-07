@@ -6,6 +6,16 @@
  */
 function navHr() {
     ?>
+    <style>
+        .show-in-mobile {
+            display: none !important;
+        }
+        @media all and (max-width: 768px) {
+            .show-in-mobile {
+                display: block !important;
+            }
+        }
+    </style>
     <div class="ms-menu">
         <div class="ms-menu-logo">
             <a href="./" target="_blank"><img src="https://portalvhds11000v9mfhk0k.blob.core.windows.net/travel/HISnew.png" /></a>
@@ -23,7 +33,7 @@ function navHr() {
                     <div class="ms-dropdown">
                         <button class="ms-btn">
                             <i class="bi bi-person-circle"></i>&nbsp;&nbsp;HR
-                        </button>
+                        </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <div class="ms-dropdown-content">
                             <ul class="ms-dropdown-content-list" style="height:auto;width:auto;">
                             <form action="./auth/Logout.auth.php" method="post">
@@ -32,6 +42,11 @@ function navHr() {
                             </ul>
                         </div>
                     </div>
+                </li>
+                <li class="show-in-mobile">
+                    <form action="./auth/Logout.auth.php" method="post">
+                        <button class="ms-btn" type="submit" style="display:block;margin:auto;">Logout</button>
+                    </form>
                 </li>
             </ul>
         </nav>

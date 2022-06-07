@@ -6,6 +6,16 @@
  */
 function navManager() {
     ?>
+    <style>
+        .show-in-mobile {
+            display: none !important;
+        }
+        @media all and (max-width: 768px) {
+            .show-in-mobile {
+                display: block !important;
+            }
+        }
+    </style>
     <div class="ms-menu">
         <div class="ms-menu-logo">
             <a href="/" target="_blank"><img src="https://portalvhds11000v9mfhk0k.blob.core.windows.net/travel/HISnew.png" /></a>
@@ -32,6 +42,11 @@ function navManager() {
                             </ul>
                         </div>
                     </div>
+                </li>
+                <li class="show-in-mobile">
+                    <form action="./auth/Logout.auth.php" method="post">
+                        <button class="ms-btn" type="submit" style="display:block;margin:auto;">Logout</button>
+                    </form>
                 </li>
             </ul>
         </nav>
