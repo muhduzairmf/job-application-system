@@ -86,11 +86,11 @@ unset($_SESSION['redirect_login']);
                 <br><br>
                 <div class="ms-form-group">
                     <label for="email_id">Email</label>
-                    <input type="email" placeholder="Email" id="email_id" name="user_email" value="<?php $email; ?>">
+                    <input type="email" placeholder="Email" id="email_id" name="user_email" value="<?php echo $email; ?>">
                 </div>
                 <div class="ms-form-group">
                     <label for="password_id">Password</label>
-                    <input type="password" placeholder="Password" id="password_id" name="user_password" autocomplete="current-password" value="<?php $passw; ?>">
+                    <input type="password" placeholder="Password" id="password_id" name="user_password" autocomplete="current-password" value="<?php echo $passw; ?>">
                 </div>
                 <div class="ms-form-group">
                     <input type="submit" class="ms-btn ms-primary ms-fullwidth" value="Login" name="submit">
