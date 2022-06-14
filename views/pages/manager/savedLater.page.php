@@ -177,8 +177,8 @@ if ($result->num_rows > 0) {
                             <div class="ms-form-group">
                                 <label for="status_recruitment">Status of recruitment&nbsp;<span class="ms-text-action2">*</span></label>
                                 <select name="status_recruitment" id="status_recruitment" required>
-                                    <option value="5" <?php echo ($job['recruitment_status_id'] == "1") ? "selected" : ""; ?>>Save recruitment notice later.</option>
-                                    <option value="1" <?php echo ($job['recruitment_status_id'] == "2") ? "selected" : ""; ?>>Submit to HR to proceed approval from HQ</option>
+                                    <option value="1" <?php echo ($job['recruitment_status_id'] == "1") ? "selected" : ""; ?>>Save recruitment notice later.</option>
+                                    <option value="2" <?php echo ($job['recruitment_status_id'] == "2") ? "selected" : ""; ?>>Submit to HR to proceed approval from HQ</option>
                                 </select>
                             </div>
                             <br>
